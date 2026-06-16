@@ -1,0 +1,19 @@
+README.md
+  s_b83c517c265748::t_1f18bc1cde14ef 3,7-13,17,23-37,43-53,57-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "c537568cde8936a3afe39127de3421389433dd74",
+  "prompts": {},
+  "sessions": {
+    "s_b83c517c265748": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7617cdf2-e899-4a8e-bda3-9b902c8f48d7",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Sarp <sarppehlivan444@gmail.com>"
+    }
+  }
+}
