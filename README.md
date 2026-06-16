@@ -1,33 +1,71 @@
 # Designops Copilot
 
-Figma-to-React editor that updates real code safely.
+A Figma-to-React editor that bridges design and code — apply design system changes from Figma directly to your React codebase, safely and in real time.
 
 ## Tech Stack
 
-- [Next.js](https://nextjs.org) - React framework
-- [Shadcn UI](https://ui.shadcn.com/) - Component library
-- [Tailwind CSS](https://tailwindcss.com) - Styling
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Next.js 15](https://nextjs.org) — React framework with Turbopack
+- [React 19](https://react.dev) — UI library
+- [TypeScript 5](https://www.typescriptlang.org/) — Type safety with strict mode
+- [Tailwind CSS](https://tailwindcss.com) — Utility-first styling
+- [Shadcn UI](https://ui.shadcn.com/) — Component library built on Radix UI
+- [Zod](https://zod.dev) — Schema validation for forms and environment config
+- [React Hook Form](https://react-hook-form.com) — Performant form management
 
 ## Getting Started
 
-1. Install dependencies:
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-2. Start the development server:
+### 2. Configure environment variables
+
+Copy the example env file and fill in the required values:
+
+```bash
+cp .env.example .env.local
+```
+
+Required variables:
+
+| Variable | Description |
+|---|---|
+| `NEXT_PUBLIC_APP_URL` | The public URL of the app (e.g. `http://localhost:3000`) |
+
+### 3. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+Open [http://localhost:3000](http://localhost:3000) to see the application.
+
+## Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start dev server with Turbopack hot reload |
+| `npm run build` | Build for production |
+| `npm start` | Run the production build |
+| `npm run lint` | Run ESLint |
+| `npm run format` | Format code with Prettier |
 
 ## Project Structure
 
-- `src/app/page.tsx` - Main page
-- `src/app/layout.tsx` - Root layout
-- `src/components/ui/` - Shadcn UI components
-- `src/lib/utils.ts` - Utility functions
+```
+src/
+├── app/
+│   ├── layout.tsx        # Root layout (fonts, metadata)
+│   ├── page.tsx          # Landing page
+│   └── globals.css       # Global styles
+├── components/
+│   └── ui/               # Shadcn UI components (Button, Card, ...)
+├── config/
+│   └── env.ts            # Environment variable validation (Zod)
+├── lib/
+│   └── utils.ts          # cn() utility for Tailwind class merging
+└── utils/
+    └── logger.ts         # Server-side logger with levels and context
+```
