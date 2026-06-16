@@ -1,0 +1,20 @@
+README.md
+  s_883000a6a49b90::t_266c93e91f8d6f 3,5,7-9,11-12,14-19,21-24,32-38,44-66,68-69,71
+  s_883000a6a49b90::t_b1adda50935d5e 10,20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "5434d93370eb02f8bc3af8c8ebed2aef4c2e0d37",
+  "prompts": {},
+  "sessions": {
+    "s_883000a6a49b90": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019eb50f-3b8b-7c91-b18d-5c362d44493a",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Sarp <sarppehlivan444@gmail.com>"
+    }
+  }
+}
