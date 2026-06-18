@@ -67,5 +67,5 @@ src/
 ├── lib/
 │   └── utils.ts          # cn() utility for Tailwind class merging
 └── utils/
-    └── logger.ts         # Server-side logger with levels and context
+    └── logger.ts         # Server-side logger with levels and contexta
 ```
