@@ -1,4 +1,4 @@
-# Design Copilot Demo 1
+# Design Copilot Demo 3
 
 A Figma-to-React editor that bridges design and code — apply design system changes from Figma directly to your React codebase, safely and in real time.
 
