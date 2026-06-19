@@ -1,0 +1,28 @@
+README.md
+  s_173446ddb2502d::t_10d1c4e4df1bb5 74
+  s_fd0307964007fc::t_e0a8eed5a9537d 75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.8",
+  "base_commit_sha": "77d0617097b8c84044f7db594c8ebcda70988315",
+  "prompts": {},
+  "sessions": {
+    "s_173446ddb2502d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ee04e-4de9-7da0-8faf-b189dce657d4",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Sarp <sarppehlivan444@gmail.com>"
+    },
+    "s_fd0307964007fc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ee04e-470a-78f1-b206-2b3ce07418d3",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Sarp <sarppehlivan444@gmail.com>"
+    }
+  }
+}
