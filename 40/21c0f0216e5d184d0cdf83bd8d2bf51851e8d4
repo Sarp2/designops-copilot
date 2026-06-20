@@ -1,0 +1,19 @@
+README.md
+  s_bfeed128e75895::t_672fe554e384fa 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "4021c0f0216e5d184d0cdf83bd8d2bf51851e8d4",
+  "prompts": {},
+  "sessions": {
+    "s_bfeed128e75895": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "03282fb9-df7b-44da-af8e-9bf5ffc7ce72",
+        "model": "claude-haiku-4-5-20251001"
+      },
+      "human_author": "Sarp <sarppehlivan444@gmail.com>"
+    }
+  }
+}
