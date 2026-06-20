@@ -34,6 +34,8 @@ Required variables:
 |---|---|
 | `NEXT_PUBLIC_APP_URL` | The public URL of the app (e.g. `http://localhost:3000`) |
 
+aaaaaıaaaı
+
 ### 3. Start the development server
 
 ```bash
