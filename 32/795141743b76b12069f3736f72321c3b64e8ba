@@ -1,0 +1,19 @@
+readme2.md
+  s_fd51dff1c0b9a0::t_c6ad54668d2851 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "32795141743b76b12069f3736f72321c3b64e8ba",
+  "prompts": {},
+  "sessions": {
+    "s_fd51dff1c0b9a0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2730-8d1d-7572-bef8-abad7f3e911b",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Sarp <sarppehlivan444@gmail.com>"
+    }
+  }
+}
