@@ -1,5 +1,11 @@
 # Design Copilot Demo 3 1aaaa1
 
+## Header
+
+- Product: Design Copilot Demo
+- Purpose: Sync Figma-driven design updates into a React codebase
+- Stack: Next.js, React, TypeScript, Tailwind CSS, Shadcn UI
+
 A Figma-to-React editor that bridges design and code — apply design system changes from Figma directly to your React codebase, safely and in real time.
 
 ## Tech Stack
