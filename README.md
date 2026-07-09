@@ -1,4 +1,4 @@
-# Design Copilot Demo 3 1aaaa1
+# Design Copilot Demo
 
 ## Header
 
