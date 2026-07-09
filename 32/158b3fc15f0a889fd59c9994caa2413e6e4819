@@ -1,0 +1,19 @@
+README.md
+  s_eebac825da7d74::t_52dcaf31ec9eb3 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "32158b3fc15f0a889fd59c9994caa2413e6e4819",
+  "prompts": {},
+  "sessions": {
+    "s_eebac825da7d74": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f45dd-f56f-7022-ad2b-e27222bdcf0d",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Sarp <sarppehlivan444@gmail.com>"
+    }
+  }
+}
